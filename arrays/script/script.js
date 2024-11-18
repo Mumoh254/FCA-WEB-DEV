@@ -412,4 +412,277 @@ console.log("while  loop")
 
 //task  that   prints  a  prime  num,ber  fom  0 to  17  prime  number  shld  be  in  an  interval  of   two
 
+// var   burgerName;
+// var   friesName;
+// var   sodaName;
+// var   burgerTotal;
+// var   sodaTotal;
+// var   orderTotal  =   0;
+// var   deliveryConfirm  =   false;
+
+//initial  alert   of  restaurant 
+// alert("Hi   there !  Thanks  for   choosing     Burger  mart   as  your  prefered online  ordering  system.  Below   is  our   menu\n\nBurgers:\n1.  Large  Dusty  :   $3\n2. Small  Dusty:  Chief:   $7\n\nFries:\n1. Small   fries:   $1\n2.  large   fries:   $2\n\nsoda\n1. s $s1\n2.  large  soda:  $1.5")
+
+//prompt  user    for  each  item   of the  meal   they  want  to  build  
+//user  should    passs  in  the  number   aassociated   with  each   item
+
+// var   burgerVar   =  prompt("  To  start  placing   your   order,  selct   a  burger:\n Dusty    $3\n2.  small   Dusty:   $\n3.  Big  Chef:   $7")
+// var   friesVar   =  prompt("select   your  fries:\n\n1.  small   fries:  $1\n2.  large  fries  $2")
+// var   sodaVar  =  prompt("selct   your   soda:\n\n1.  small  soda: $1\n2 . large  soda  $1.5")
+
+// function  mealOrder (  burger  ,  fries   soda)  {
+//   this.burger  =   burger;
+//   if(this.burger  ==1){
+//     burgerName   = "Large Dusty";
+//     burgerTotal =  3;
+
+//   }  else  if ( this.burger ==2) {
+//     burgerName  =  "small  Dusty";
+//     burgetTotal  =   2;
+
+//   }  else  if (this.burger==3) {
+//     burgerName  =  "Big  Chief";
+//     burgerTotal= 7;
+//   }
+//   this.fries  =  fries;
+
+//   if (this.fries  === 1)  {
+//     friesName  =  "Small   fries";
+//     friesTotal  = 1;
+
+//   }  else  if(this.fries==2)  {
+//     friesName  = "Large  fries";
+//     friesTotal= 2;
+//   }
+//   this.soda  =  soda;
+//   if(this.soda == 1)
+//   {
+//     sodaName  =  "small  Soda";
+//     sodaTotal  =  1;
+//   }  else if (  this.soda  ==  2)
+//     { sodaName  =  "Large  soda";
+//     sodaTotal  =  1.5;
+  
+//   } //function   to  calculate    total 
+//   orderTotal  =  calculateTotal(burgerTotal  ,  friesTotal  ,  sodaTotal);
+//   this.delivery  =  function(){
+//     var   askDelivery  =  prompt("Would  you  like  to  have  your  meal  deliveredx: ?")
+//     if(askDelivery  ==  "yes")  {
+//       deliveryConfirm  =  true;
+//     }
+//     //method  to    display   order  details
+//     this.displayOrder  =  function(){
+//       if(deliverConfirm ==  false){
+//         alert("  Yoyr   order   details   are   below\n\n")
+//       }
+//     }
+//   }
+// }
+
+
+// let  leo  =   5;
+// let  leoNi;
+
+// switch(leo)  {
+//   case 1:
+//   leoNi =  "monday";
+
+//   case 2:
+//     leoNi =  "Teusday";
+//     break;
+
+//     case 3:
+//     leoNi =  "Wensday";
+//     break;
+
+//     case 4:
+//     leoNi =  "Thursday";
+//     break;
+
+//     case 5:
+//       leoNi =  "Friday";
+//       break;
+
+//       case 4:
+//         leoNi =  "saturday";
+//         break;
+
+//         default:
+//           leoNi =  "Invalid  day";
+// }
+// alert(leoNi)
+
+// let  a  =   '1';
+// let    b  =   0;
+
+// switch(+a) {
+//   case 1:
+//     alert("this  runs  because   +a    1  is  equls  to  b +1 ")
+//     break;
+
+//     default:
+//       alert(" This  dosent  run ")
+
+// }
+
+// let  num1 = "4"
+// let  num2 =  4;
+// console.log(+num1 +  num2)
+
+// let  myScore  =    3;
+// switch(myScore)  {
+//   case 4:
+//     alert("Got    4 ");
+//     break;
+
+//     case  3:
+//      console.log("case  3");
+
+//     case  5:
+//       alert("  Wrong ")
+//       alert("  Why  do  u  take  a  math  calss  ?");
+//       break;
+
+//       default:
+//         alert("The   result  is  strange>  Really   ??");
+
+// }
+
+
+// let   var1  =  function(num1  ,  num2)  {
+//   return   num1 *   num2
+// }
+
+// document.getElementById("var").innerHTML  =  var1(  12 ,  30 )
+
+// const   showMessage =  ()=>{
+
+// let  message  =  "Hellow  Peter  mumo";
+// alert(message)
+
+// }
+
+// showMessage();
+// alert(message)
+
+// let  jina  =  "Magufuli";
+
+// function   showMessage(){
+//   let  message  =   "rais   aliyependwa   sana  inchini  ni  rais   mwalimu  Kambarage  Julius  na  Rais " + jina
+//   alert(message)
+// }
+
+// showMessage()
+
+
+
+// fuction  returns  gretest  of  two  numbers
+
+
+
+// const returns = ()=>{
+
+//   let  num1  = prompt("Enter  num  1" , "");
+//   let num2  =  prompt(" Enter num2 " ,  "");
+
+//   if( num1 > num2 &&   num2 < num1) {
+//     return alert(num1);
+
+//   } else  if (num1 < num2 &&   num2 > num1)  {
+//     return alert(num2);
+//   } else {
+//     alert("Invalid option ||   Equal")
+//   }
+// }
+
+// returns();
+
+// function   that  multiplies   itsels  n   tyms 
+// const  multiply = ()=>{
+
+//   let  num =  prompt("Enter  number" , "")
+//    do {
+//     return  alert(num*num)
+//   }
+//   while (num!="");
+  
+// }
+// multiply();
+
+//use   function    declarion to  write  a   function  which  takes   two  parameters and  add  them  then  display  the  XPathResult
+
+// function  add(val1  ,  val2){
+// return alert(val1 +   val2)
+// }
+// add(  2  , 4)
+
+
+// const   result  =(  a , b)=>{
+
+// return alert(a+b)
+// }
+// result(2 , 3)
+
+// function  toa( leta  , rudisha){
+// return leta+rudisha
+// }
+
+
+// let  majibu  =  toa(   4  ,  6)
+// alert(majibu)
+
+// let  ingine =  function( var1   ,  var2 ){
+//   return var1 +  var2
+// }
+
+// let  ans  =  ingine(   6 , 2)
+// alert(ans)
+
+// let salamu  =   ()=>{
+//   alert("Habari")
+// }
+// salamu();
+
+// let  mwaka =  prompt("What   is   your   age ?"  , "");
+
+// let majibu  =   (mwaka  <   18)  ? 
+// ()=> alert("wewe  ni  under   18") : ()=>alert("wewe  ni  Gen-Z")
+// majibu();
+
+// let  ongeza   =  (a  ,  b)=>{
+//   let   mwongozo  =  a +  b;
+//   return  mwongozo;
+
+// }
+// alert(ongeza(  10  ,  7));
+
+// function  fn(b){
+// return b()
+// }
+// fn(()=>{
+//   console.log({
+//     message:   "i  am  a  call  back  function"
+//   })
+// })
+// fn()
+
+// function  uliza(swali  , yes   , no){
+//   if(confirm(swali))  yes();
+//   else  no();
+
+//   uliza("je  , umekubali?" , 
+//     function(){alert("Umekubali.");},
+//     function(){alert("Umekataa kuyatimiza.?");}
+//   )
+// }
+
+let  uliza = (swali   ,  yes  , no )=>{
+  
+  if(confirm(swali))  yes();
+  else  no();
+  uliza("je , umekubali?" ,
+    ()=>alert("Umekubali."),
+    ()=>alert("Umekataa  kuyatimiza")
+  )
+}
 
